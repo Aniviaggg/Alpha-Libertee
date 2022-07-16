@@ -1,7 +1,7 @@
 from gtts import gTTS
 import os
 
-myText = "Text To Speech Conversion Using Python."
+myText = open('TTS_test.txt', 'r').read()
 
 language = 'en'
 

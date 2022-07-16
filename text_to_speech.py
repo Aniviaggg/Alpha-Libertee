@@ -1,7 +1,7 @@
 from gtts import gTTS
 import os
 
-path = "/test/TTS_test.txt"
+path = "/TTStest/TTS_test.txt"
 with open(os.path.join(os.path.dirname(__file__), path), 'r') as input_file:
     myText = input_file.read()
 
